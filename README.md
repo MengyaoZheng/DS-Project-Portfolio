@@ -17,6 +17,7 @@ The notebook includes the following parts:
 
 ## NLP: Context-Aware Legal Case Citation Prediction Using Deep Learning 
 Please see the video presentation here: [Presentation](https://www.youtube.com/watch?v=QfXUCw_XsT4)
+
 We have craped 100K+ legal texts from Harvard Law School’s database using Python Scrapy, cleaned and tokenized. And we predicted in-text citation by both supervised and unsupervised learning methods: 1) building LSTM and CNN models with embedding layers using TensorFlow, 2) leveraging Legal-BERT model to obtain the embeddings and then used FAISS index to do similarity-based modelling. The Top model (LSTM) achieved a 200x accuracy boost as compared to the baseline random model.
 
 
