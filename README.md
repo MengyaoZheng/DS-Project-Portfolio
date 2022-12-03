@@ -1,7 +1,7 @@
 # DS Project Portfolio
 
-## Mengyao Zheng [Linkedin @Mengyao Zheng](https://www.linkedin.com/in/mengyao-zheng/).
-
+## Mengyao Zheng 
+[Linkedin @Mengyao Zheng](https://www.linkedin.com/in/mengyao-zheng/)
 
 
 ### 1. Causal Inference on the average treatment effect (ATE) of quitting smoking ($T$) on weight gain ($Y$)
@@ -15,7 +15,8 @@ The notebook includes the following parts:
 3. Implement covariate adjustment strategies to estimate the conditional average treatment effect (CATE) as well as ATE in Python.
 4. Assess how robust the ATE estimate is against potential unobserved confounders via sensitivity analysis. 
 
-## NLP: Context-Aware Legal Case Citation Prediction Using Deep Learning [Presentation](https://www.youtube.com/watch?v=QfXUCw_XsT4)
+## NLP: Context-Aware Legal Case Citation Prediction Using Deep Learning 
+Please see the video presentation here: [Presentation](https://www.youtube.com/watch?v=QfXUCw_XsT4)
 We have craped 100K+ legal texts from Harvard Law School’s database using Python Scrapy, cleaned and tokenized. And we predicted in-text citation by both supervised and unsupervised learning methods: 1) building LSTM and CNN models with embedding layers using TensorFlow, 2) leveraging Legal-BERT model to obtain the embeddings and then used FAISS index to do similarity-based modelling. The Top model (LSTM) achieved a 200x accuracy boost as compared to the baseline random model.
 
 
