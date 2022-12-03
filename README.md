@@ -1,6 +1,6 @@
 # DS Project Portfolio
 
-## Mengyao Zheng [here](https://www.linkedin.com/in/mengyao-zheng/).
+## Mengyao Zheng [Linkedin @Mengyao Zheng](https://www.linkedin.com/in/mengyao-zheng/).
 
 
 
