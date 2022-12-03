@@ -4,7 +4,7 @@
 [Linkedin @Mengyao Zheng](https://www.linkedin.com/in/mengyao-zheng/)
 
 
-### 1. Causal Inference on the average treatment effect (ATE) of quitting smoking ($T$) on weight gain ($Y$)
+### Causal Inference on the average treatment effect (ATE) of quitting smoking ($T$) on weight gain ($Y$)
 I have performed a causal analysis on a real-world healthcare dataset, known as the *NHANES I Epidemiologic Follow-up Study (NHEFS)* dataset. It is a government-initiated longitudinal study designed to investigate the relationships between clinical, nutritional, and behavioral factors. For more detail, please see [here](https://wwwn.cdc.gov/nchs/nhanes/nhefs/default.aspx/).
 
 The task is to estimate the average treatment effect (ATE) of quitting smoking ($T$) on weight gain ($Y$). The NHEFS cohort includes 1,566 cigarette smokers between 25 - 74 years of age who completed two medical examinations at separate time points: a baseline visit and a follow-up visit approximately 10 years later. Individuals were identified as the treatment group if they reported smoking cessation before the follow-up visit. Otherwise, they were assigned to the control group. Finally, each individual’s weight gain, $Y$, is the difference in *kg* between their body weight at the follow-up visit and their body weight at the baseline visit. 
