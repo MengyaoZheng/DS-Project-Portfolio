@@ -542,7 +542,7 @@ __Folder structure__
 The folder structure for the *AD_fbi* package:
 
 ```
-Team06/
+ForwardMode_package/
 ├── LICENSE
 ├── README.md
 ├── dist
@@ -553,9 +553,6 @@ Team06/
 │   ├── figure2.html
 │   ├── documentation.ipynb
 │   ├── graph.png
-│   ├── milestone1.ipynb
-│   ├── milestone2.ipynb
-│   ├── milestone2_progress.md
 │   └── plot.ipynb
 ├── pyproject.toml
 ├── requirement.txt
@@ -587,7 +584,7 @@ The AD_fbi package contains three essential modules: 1) a dual number module for
 
 __Test Suite__
 
-The test suite lives in the <code>team06/src/tests/</code> directory. It contains all pytests for our package. The YAML file under the <code>team06/.github/workflows/</code> directory defines the CI setup and jobs for GitHub Actions. When a new code is pushed to main branch, all tests are automatically trigered to test the code. 
+The test suite lives in the <code>ForwardMode_package/src/tests/</code> directory. It contains all pytests for our package. The YAML file under the <code>team06/.github/workflows/</code> directory defines the CI setup and jobs for GitHub Actions. When a new code is pushed to main branch, all tests are automatically trigered to test the code. 
 
 __Package Distribution__
 
