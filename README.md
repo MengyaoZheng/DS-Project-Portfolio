@@ -24,6 +24,8 @@ We have craped 100K+ legal texts from Harvard Law School’s database using Pyth
 
 <h1 align="center">AD_fbi: Automatic Differentiation Python Package</h1>
 
+The complete documentation can be see in ForwardMode_package/docs/documentation.ipynb.
+
 ## Introduction
 
 Our software package, *AD_fbi*, computes gradients using the technique of automatic differentiation. Automatic differentiation is important because it is able to solve the derivatives of complex functions at low cost while maintaining accuracy and stability. Its high practicality and precision make it applicable to a wide range of tasks, such as machine learning optimization, calculating financial loss or profit, and minimizing the cost of vaccine distribution. Automatic differentiation plays a crucial role in solving these problems. 
