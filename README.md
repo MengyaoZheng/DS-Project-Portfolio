@@ -24,7 +24,7 @@ We have craped 100K+ legal texts from Harvard Law School’s database using Pyth
 
 <h1 align="center">AD_fbi: Automatic Differentiation Python Package</h1>
 
-# Introduction
+## Introduction
 
 Our software package, *AD_fbi*, computes gradients using the technique of automatic differentiation. Automatic differentiation is important because it is able to solve the derivatives of complex functions at low cost while maintaining accuracy and stability. Its high practicality and precision make it applicable to a wide range of tasks, such as machine learning optimization, calculating financial loss or profit, and minimizing the cost of vaccine distribution. Automatic differentiation plays a crucial role in solving these problems. 
 
@@ -37,7 +37,7 @@ Our software package computes derivatives using the forward mode of auto differe
 Here is the introduction of our implementation:
 
 
-# Implementation
+## Implementation
     
 * __Main Classes__
   * <code>DualNumbers</code>: class for operations with a dual number.
@@ -95,7 +95,7 @@ Here is the introduction of our implementation:
    * We use the numpy library to create our data structure for the computational graph and perform
    computations outside of those we created in our dual_number class.
 
-# License
+## License
 
 Our *AD_fbi* package is licensed under the GNU General Public License v3.0. This free software license allows users to do just about anything they want with our project, except distribute closed source versions. This means that any improved versions of our package that individuals seek to release must also be free software. We find it essential to allow users to help each other share their bug fixes and improvements with other users. Our hope is that users of this package continually find ways to improve it and share these improvements within the broader scientific community that uses automatic differentation.
 
