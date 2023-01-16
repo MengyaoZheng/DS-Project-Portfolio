@@ -542,7 +542,7 @@ __Folder structure__
 The folder structure for the *AD_fbi* package:
 
 ```
-Team06/
+ForwardMode_package/
 ├── LICENSE
 ├── README.md
 ├── dist
@@ -553,9 +553,6 @@ Team06/
 │   ├── figure2.html
 │   ├── documentation.ipynb
 │   ├── graph.png
-│   ├── milestone1.ipynb
-│   ├── milestone2.ipynb
-│   ├── milestone2_progress.md
 │   └── plot.ipynb
 ├── pyproject.toml
 ├── requirement.txt
