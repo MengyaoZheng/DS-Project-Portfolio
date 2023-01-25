@@ -3,6 +3,12 @@
 ## Mengyao Zheng 
 [Linkedin @Mengyao Zheng](https://www.linkedin.com/in/mengyao-zheng/)
 
+Table of Contents:
+* Causal Inference on the average treatment effect (ATE) of quitting smoking on weight gain
+* NLP: Context-Aware Legal Case Citation Prediction Using Deep Learning
+* Dashboard and Visualization for Comparing Job Offers
+* AD_fbi: Automatic Differentiation Python Package Development
+
 
 <h1 align="center">Causal Inference on the average treatment effect (ATE) of quitting smoking on weight gain</h1>
 
@@ -22,7 +28,27 @@ Please see the video presentation here: [Presentation](https://www.youtube.com/w
 
 We have craped 100K+ legal texts from Harvard Law School’s database using Python Scrapy, cleaned and tokenized. And we predicted in-text citation by both supervised and unsupervised learning methods: 1) building LSTM and CNN models with embedding layers using TensorFlow, 2) leveraging Legal-BERT model to obtain the embeddings and then used FAISS index to do similarity-based modelling. The Top model (LSTM) achieved a 200x accuracy boost as compared to the baseline random model.
 
-<h1 align="center">AD_fbi: Automatic Differentiation Python Package</h1>
+
+
+
+<h1 align="center">Dashboard and Visualization for Comparing Job Offers</h1> 
+
+[Project Website](https://nonajiang.github.io/Checks-and-Cities/)
+[Shinny App Demo](https://www.youtube.com/watch?v=jtnf0ZYH_Fs)
+[GitHub Repo](https://github.com/rindalafayyad17/260-Project)
+
+The primary objective of the study is to put together salary data for various job titles in 50 US cities (similar to something you would see on Glassdoor) and additionally include the important cost of living measures such as apartment costs, meal costs, utilities, and other relevant information. The shiny dashboard is the pillar of the project; however, there are various other bits of information we can use to better understand these relationships.  For examples, visualizations are a key driver of our ability to make decisions with data. A powerful scatterplot can often convince someone of a decision in a way that a complex analysis may not be able to manage. The end-goal is to create an app that people can use to compare different job offers in different cities, and make a decision based on the salary and the cities’ costs of living. We want to make it easier for people to choose the “best” job offer. 
+
+We have Web-scrapped all the salary and cost of living data in 50 major US cities, cleaned the data using R tidyverse and dplyr, created a dynamic dashboard App with R Shiny, and constructed word clouds to visualize the high-paying occupations in various cities. We also used generalized additive model (GAM), decision tree, and gradient boosting trees to predict future apartment price
+
+
+
+
+
+
+
+
+<h1 align="center">AD_fbi: Automatic Differentiation Python Package Development</h1>
 
 The complete documentation can be see in ForwardMode_package/docs/documentation.ipynb.
 
