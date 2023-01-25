@@ -3,11 +3,16 @@
 ## Mengyao Zheng 
 [Linkedin @Mengyao Zheng](https://www.linkedin.com/in/mengyao-zheng/)
 
+Hi, I am Mengyao Zheng, a master student studying biostatistics at Harvard University. I enjoy the process of turning data into insights and have completed an array of hands-on data science projects. I am fluent in Python, SQL, and R. Some selected projects are shown in this repo:
+
+
 Table of Contents:
 * Causal Inference on the average treatment effect (ATE) of quitting smoking on weight gain
 * NLP: Context-Aware Legal Case Citation Prediction Using Deep Learning
 * Dashboard and Visualization for Comparing Job Offers
 * AD_fbi: Automatic Differentiation Python Package Development
+
+
 
 
 <h1 align="center">Causal Inference on the average treatment effect (ATE) of quitting smoking on weight gain</h1>
@@ -21,6 +26,9 @@ The notebook includes the following parts:
 2. Implement propensity score re-weighting to estimate the ATE in Python.
 3. Implement covariate adjustment strategies to estimate the conditional average treatment effect (CATE) as well as ATE in Python.
 4. Assess how robust the ATE estimate is against potential unobserved confounders via sensitivity analysis. 
+
+
+
 
 <h1 align="center">NLP: Context-Aware Legal Case Citation Prediction Using Deep Learning</h1>
 
@@ -36,6 +44,7 @@ We have craped 100K+ legal texts from Harvard Law School’s database using Pyth
 [Project Website](https://nonajiang.github.io/Checks-and-Cities/)
 [Shinny App Demo](https://www.youtube.com/watch?v=jtnf0ZYH_Fs)
 [GitHub Repo](https://github.com/rindalafayyad17/260-Project)
+
 
 The primary objective of the study is to put together salary data for various job titles in 50 US cities (similar to something you would see on Glassdoor) and additionally include the important cost of living measures such as apartment costs, meal costs, utilities, and other relevant information. The shiny dashboard is the pillar of the project; however, there are various other bits of information we can use to better understand these relationships.  For examples, visualizations are a key driver of our ability to make decisions with data. A powerful scatterplot can often convince someone of a decision in a way that a complex analysis may not be able to manage. The end-goal is to create an app that people can use to compare different job offers in different cities, and make a decision based on the salary and the cities’ costs of living. We want to make it easier for people to choose the “best” job offer. 
 
